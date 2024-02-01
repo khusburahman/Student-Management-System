@@ -37,6 +37,7 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    //Edit
+    <a asp-action="CreateOrEdit"asp-controller="Student"  asp-route-id="@Model?.Id" class="btn btn-sm btn-success">Edit</a> |
+    <a class="btn btn-sm btn-primary" asp-action="Index">Back to List</a>
 </div>
